@@ -1,0 +1,32 @@
+{
+  "name": "dj-events-backend",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/plugin-i18n": "4.1.11",
+    "@strapi/plugin-users-permissions": "4.1.11",
+    "@strapi/provider-upload-cloudinary": "^4.1.11",
+    "@strapi/strapi": "4.1.11",
+    "better-sqlite3": "7.4.6",
+    "slugify": "^1.6.5"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "135c1b90-2213-473d-b6c9-159afe17a7d1"
+  },
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
